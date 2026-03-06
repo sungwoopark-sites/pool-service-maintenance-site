@@ -1,0 +1,72 @@
+/* ================================================
+   animations.css — Non-critical animation styles
+   Loaded deferred (media=print onload pattern)
+   ================================================ */
+
+/* ---- Scroll reveal ---- */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.55s ease, transform 0.55s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Stagger for grids */
+.services-grid .reveal:nth-child(2) { transition-delay: 0.1s; }
+.services-grid .reveal:nth-child(3) { transition-delay: 0.2s; }
+.services-grid .reveal:nth-child(4) { transition-delay: 0.3s; }
+.services-grid .reveal:nth-child(5) { transition-delay: 0.4s; }
+.services-grid .reveal:nth-child(6) { transition-delay: 0.5s; }
+.problems-grid .reveal:nth-child(2) { transition-delay: 0.1s; }
+.problems-grid .reveal:nth-child(3) { transition-delay: 0.2s; }
+
+/* ---- Hero animations (triggered on load) ---- */
+.hero-badge { animation: heroFadeUp 0.6s ease 0.2s both; }
+.hero-title { animation: heroFadeUp 0.6s ease 0.35s both; }
+.hero-subtitle { animation: heroFadeUp 0.6s ease 0.5s both; }
+.hero-actions { animation: heroFadeUp 0.6s ease 0.65s both; }
+.hero-ratings { animation: heroFadeUp 0.6s ease 0.8s both; }
+
+@keyframes heroFadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ---- Card hover pulse ---- */
+.service-card:hover .service-icon {
+  animation: iconPulse 0.4s ease;
+}
+@keyframes iconPulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+/* ---- Areas badge hover ---- */
+.area-badge {
+  transition: background 0.2s, color 0.2s, transform 0.15s;
+}
+.area-badge:hover {
+  background: var(--blue);
+  color: var(--white);
+  border-color: var(--blue);
+  transform: translateY(-2px);
+}
+
+/* ---- Header scroll shadow ---- */
+.site-header.scrolled {
+  box-shadow: 0 4px 30px rgba(0,0,0,0.35);
+}
+
+/* ---- Reduced motion ---- */
+@media (prefers-reduced-motion: reduce) {
+  .reveal, .hero-badge, .hero-title, .hero-subtitle, .hero-actions, .hero-ratings {
+    animation: none;
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

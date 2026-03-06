@@ -1,0 +1,112 @@
+{
+  "business_name": "Pool Service & Maintenance Professionals",
+  "tagline": "Making Pools Beautiful!",
+  "phone": "(888) 587-7459",
+  "email": null,
+  "address": "2121 W Imperial Highway #E442, La Habra, CA 90631",
+  "service_areas": ["Fullerton", "La Habra", "La Mirada", "Whittier", "Brea", "Yorba Linda"],
+  "coverage_counties": ["Los Angeles", "Orange"],
+  "years_in_business": "25+",
+  "business_type": "Family-owned and operated",
+  "license": "Contractors Licensed, Bonded, Insured",
+  "hours": null,
+  "services": {
+    "residential": [
+      "Replaster",
+      "Repair",
+      "Heaters",
+      "Fireman's Switch",
+      "Jandy JXi",
+      "Pumps",
+      "Filters",
+      "Motors",
+      "Saltwater",
+      "Spa Covers",
+      "Water Loss / Bucket Test",
+      "Pool Light J-Box"
+    ],
+    "commercial": [
+      "Weekly maintenance for HOAs, condominiums, apartments, schools/universities, hotels, motels, shopping malls, industrial parks",
+      "New equipment sales and installation",
+      "On-site repairs",
+      "Replacement of noisy/seized motors, leaking seals, broken valves",
+      "Tile cleaning and glass bead-blasting",
+      "Pump-out and refill/start-up service",
+      "Algae control/removal",
+      "Emergency contamination clean-up (feces/dead animal)",
+      "Skimmer replacements",
+      "Underground leak detection and pipe repairs",
+      "Pool, spa or fountain light bulb or light fixture replacement"
+    ],
+    "safety_compliance": [
+      "Compliance Signs",
+      "ADA Compliance",
+      "Contamination"
+    ]
+  },
+  "hero_services": [
+    {
+      "title": "Sales",
+      "description": "We sell most all brands of pool equipment from pumps, heaters, filters and lights at prices competitive with online distributors but with quality local installation."
+    },
+    {
+      "title": "Repairs",
+      "description": "We repair most any brands of pool and spa equipment. From a simple fix to a complete upgrade, we've got the parts to keep your pool looking good."
+    },
+    {
+      "title": "Replaster",
+      "description": "If your pool is looking worn out, it might be time to replaster. We can help you refresh your outdoor living space by replastering your pool."
+    }
+  ],
+  "about_text": "For more than 25 years, our family owned and operated company has helped customers throughout the cities of Fullerton, La Habra, La Mirada, Whittier, Brea, and Yorba Linda as well as all surrounding areas to design, re-plaster and repair their pools, spas and water features. Your satisfaction is our priority, with prompt, professional service and fair pricing on labor and equipment. Commercial pools, spas, fountains, waterfalls, streams – our company is able to assist with a variety of all re-plaster, remodel and repair needs. We service and install all makes and models of pool and spa equipment, including chlorine and natural salt systems. We also repair portable (above-ground) spas!",
+  "trust_signals": [
+    "Top-rated with HomeAdvisor",
+    "Top-rated with Yelp",
+    "Top-rated with TrustLink",
+    "Top-rated with Thumbtack",
+    "Top-rated with the Better Business Bureau"
+  ],
+  "common_problems": [
+    {
+      "title": "Low Suction & Circulation",
+      "description": "Has there been a decrease in your pool suction? Water isn't flowing as fast as it should or maybe your pool cleaner is running much slower, or even stopped? We can help to diagnose and repair the problem!"
+    },
+    {
+      "title": "Noisy & Leaking Pumps",
+      "description": "Leaking pumps not only cause wasteful water loss, but leaks from the pumps shaft seals destroy the pump's motor bearings causing them to rust, create excessive noise and eventually stop turning. Call a professional today and let us check it out!"
+    },
+    {
+      "title": "Water Leaks & Water Loss",
+      "description": "Losing water in your pool? Excessive water loss (more than 1\" per week) can be considered a leak. Some equipment leaks can easily be located and repaired, while others might be underground causing erosion and require more extensive testing to locate and correct."
+    }
+  ],
+  "warranty": "PSMP warrants to the original purchaser that products and services will be free from defects in material and/or workmanship. Components are covered for parts and labor for 1 year after installation/sale unless otherwise noted on the invoice.",
+  "financing": true,
+  "testimonials": [],
+  "social_links": {},
+  "brand_colors": {
+    "primary": "#0a5ca8",
+    "secondary": "#1a8cd8",
+    "accent": "#f5a623"
+  },
+  "images_downloaded": [
+    "assets/images/pool-hero.webp",
+    "assets/images/pool2.webp",
+    "assets/images/logo.webp",
+    "assets/images/logo-hero.webp",
+    "assets/images/favicon.png",
+    "assets/images/service-hero.webp"
+  ],
+  "contact_form_fields": [
+    "First Name",
+    "Last Name",
+    "Address",
+    "City",
+    "State",
+    "Zip Code",
+    "Select Inquiring About (Replaster Pool / Replaster Pool & Spa / Pump Repair/Replacement / Filter Repair/Replacement / Light Repair/Replacement / Other)",
+    "Message",
+    "Mobile Phone",
+    "Email Address"
+  ]
+}
